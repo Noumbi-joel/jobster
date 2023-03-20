@@ -1,8 +1,9 @@
 import { StyleSheet } from "react-native";
 
 import { FONT, SIZES, COLORS } from "../../../constants";
+import { PopularJobsStyleProps } from "../../../typings";
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create<PopularJobsStyleProps>({
   container: {
     marginTop: SIZES.xLarge,
   },

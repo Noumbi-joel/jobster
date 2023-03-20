@@ -1,8 +1,9 @@
 import { StyleSheet } from "react-native";
 
 import { COLORS, FONT, SIZES } from "../../../constants";
+import { WelcomeStyleProps } from "../../../typings";
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create<WelcomeStyleProps>({
   container: {
     width: "100%",
   },
@@ -56,14 +57,14 @@ const styles = StyleSheet.create({
     width: "100%",
     marginTop: SIZES.medium,
   },
-  tab: (activeJobType, item) => ({
+  tab: (activeJobType: string, item: Object) => ({
     paddingVertical: SIZES.small / 2,
     paddingHorizontal: SIZES.small,
     borderRadius: SIZES.medium,
     borderWidth: 1,
     borderColor: activeJobType === item ? COLORS.secondary : COLORS.gray2,
   }),
-  tabText: (activeJobType, item) => ({
+  tabText: (activeJobType: string, item: Object) => ({
     fontFamily: FONT.medium,
     color: activeJobType === item ? COLORS.secondary : COLORS.gray2,
   }),
