@@ -1,7 +1,9 @@
+import React from "react";
+
 export type ScreenHeaderBtnProps = {
   iconUrl: ImageSourcePropType;
   dimension: string;
-  handlePress: GestureResponderEvent;
+  handlePress?: GestureResponderEvent;
 };
 
 export type ScreenHeaderStyleProps = {
@@ -54,7 +56,7 @@ export type Job = {
   employer_name: string;
   job_title: string;
   job_country: string;
-  job_employment_type: string
+  job_employment_type: string;
 };
 
 export type PopularJobCardProps = {
@@ -66,4 +68,22 @@ export type PopularJobCardProps = {
 export type NearbyJobCardProps = {
   job: Job;
   handleNavigate: GestureResponderEvent;
-}
+};
+
+export type CompanyProps = {
+  companyLogo: string;
+  jobTitle: string;
+  companyName: string;
+  location: string;
+};
+
+export type TabsProps = {
+  tabs: Array;
+  activeTab: string;
+  setActiveTab: React.Dispatch<React.SetStateAction<string>>;
+};
+
+export type SpecificsProps = {
+  title: string;
+  points: string[];
+};

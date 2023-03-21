@@ -12,6 +12,8 @@ import { useRouter } from "expo-router";
 // styles
 import styles from "./popularjobs.style";
 
+import { Job } from "../../../typings";
+
 // comp
 import PopularJobCard from "../../common/cards/popular/PopularJobCard";
 
@@ -33,7 +35,9 @@ const Popularjobs = () => {
 
   const [selectedJob, setSelectedJob] = useState();
 
-  const handleCardPress = () => {};
+  const handleCardPress = (item: Job) => {
+    router.push(`/job-details/${item?.job_id}`);
+  };
 
   return (
     <View style={styles.container}>
