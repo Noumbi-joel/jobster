@@ -31,9 +31,13 @@ const Popularjobs = () => {
     },
   });
 
+  const [selectedJob, setSelectedJob] = useState();
+
+  const handleCardPress = () => {};
+
   return (
     <View style={styles.container}>
-      <Text style={styles.headerTitle}>Popularjobs</Text>
+      <Text style={styles.headerTitle}>Popular jobs</Text>
       <Pressable>
         <Text style={styles.headerBtn}>Show all</Text>
       </Pressable>
@@ -49,7 +53,13 @@ const Popularjobs = () => {
             data={data}
             horizontal
             contentContainerStyle={{ columnGap: SIZES.medium }}
-            renderItem={({ item }) => <PopularJobCard item={item} key={item} />}
+            renderItem={({ item }) => (
+              <PopularJobCard
+                item={item}
+                key={item}
+                handleCardPress={handleCardPress}
+              />
+            )}
           />
         )}
       </View>

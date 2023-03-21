@@ -49,10 +49,12 @@ export type FetchProps = {
 };
 
 export type Job = {
+  job_id: string;
   employer_logo: string;
   employer_name: string;
   job_title: string;
   job_country: string;
+  job_employment_type: string
 };
 
 export type PopularJobCardProps = {
@@ -60,3 +62,8 @@ export type PopularJobCardProps = {
   selectedJob?: Job;
   handleCardPress?: GestureResponderEvent;
 };
+
+export type NearbyJobCardProps = {
+  job: Job;
+  handleNavigate: GestureResponderEvent;
+}
