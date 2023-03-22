@@ -87,3 +87,9 @@ export type SpecificsProps = {
   title: string;
   points: string[];
 };
+
+export type WelcomeProps = {
+  searchTerm: string;
+  setSearchTerm: React.Dispatch<React.SetStateAction<string>>;
+  handleClick: GestureResponderEvent;
+};
