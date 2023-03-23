@@ -8,10 +8,10 @@ Jobster @nkjy
 * After downloading the app, there's no authentication you just need to look for your job's dream either by searching using keywords like **Python, React Developer, Lawyer, System engineer...** or using predefined keywords like **Contractor, Full Time, Part Time**.
 * You can also see jobs description **Responsibilities, About, Qualifications**
 ## Screenshots
-![Screenshot_2023-03-23-14-09-17](https://user-images.githubusercontent.com/62994009/227225904-72f59c1f-1e59-4619-b43d-808307427349.png)
-![Screenshot_2023-03-23-14-09-37](https://user-images.githubusercontent.com/62994009/227226013-d0f4cddb-a1c6-44c6-8215-af5469ded7a8.png)
-![Screenshot_2023-03-23-14-10-44](https://user-images![Screenshot_2023-03-23-14-09-31](https://user-images.githubusercontent.com/62994009/227226078-084cd4c9-956d-44e9-9586-b529535cdee8.png)
-.githubusercontent.com/62994009/227226056-434e3ca9-c35c-4a0d-b500-b1ea98c8e4c8.png)
-![Screenshot_2023-03-23-14-11-09](https://user-images.githubusercontent.com/62994009/227226095-49dc15e5-1e78-4ecf-9548-6223c29783c7.png)
-![Screens![Screenshot_2023-03-23-14-10-23](https://user-images.githubusercontent.com/62994009/227226167-5e000a41-3ed7-458f-894e-407f8d987b4a.png)
-hot_2023-03-23-14-10-55](https://user-images.githubusercontent.com/62994009/227226128-aa6c9181-7114-4700-a407-29819c300458.png)
+![Screenshot_2023-03-23-14-09-17](https://user-images.githubusercontent.com/62994009/227226826-704b49d5-c597-485e-ad76-bd437bf7ef19.png)
+![Screenshot_2023-03-23-14-09-37](https://user-images.githubusercontent.com/62994009/227226842-4c60f3a5-d480-4859-a553-580dc586896f.png)
+![Screenshot_2023-03-23-14-10-44](https://user-images.githubusercontent.com/62994009/227226847-4e05c19a-26ce-41bf-962b-8771636ff815.png)
+![Screenshot_2023-03-23-14-09-31](https://user-images.githubusercontent.com/62994009/227226853-425ba7f6-1d8a-4e99-906c-e0d45510395d.png)
+![Screenshot_2023-03-23-14-11-09](https://user-images.githubusercontent.com/62994009/227226864-f876bca5-85a8-47ff-b301-0711c0217d09.png)
+![Screenshot_2023-03-23-14-10-55](https://user-images.githubusercontent.com/62994009/227226869-cdb43654-f5c0-4a0d-bceb-1f7470e02562.png)
+![Screenshot_2023-03-23-14-10-23](https://user-images.githubusercontent.com/62994009/227226874-f98e3f3b-2431-4c5c-8f69-58029a834755.png)
